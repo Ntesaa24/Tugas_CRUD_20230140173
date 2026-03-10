@@ -13,4 +13,7 @@ public class KtpDTO {
     @Size(min = 16, max = 16, message = "Nomor KTP must be 16 digits")
     private String nomorKtp;
 
+    @NotBlank(message = "Nama Lengkap is required")
+    private String namaLengkap;
+
 }
