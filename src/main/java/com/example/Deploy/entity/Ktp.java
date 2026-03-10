@@ -90,3 +90,4 @@ public class Ktp {
     // Builder Pattern Helper (optional, but since I used .builder() in my thought before)
     // Actually, I'll just use the constructor to keep it simple and clean.
 }
+
