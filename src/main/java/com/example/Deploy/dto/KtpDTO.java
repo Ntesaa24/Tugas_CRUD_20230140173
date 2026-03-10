@@ -16,4 +16,13 @@ public class KtpDTO {
     @NotBlank(message = "Nama Lengkap is required")
     private String namaLengkap;
 
+    @NotBlank(message = "Alamat is required")
+    private String alamat;
+
+    @NotNull(message = "Tanggal Lahir is required")
+    private LocalDate tanggalLahir;
+
+    @NotBlank(message = "Jenis Kelamin is required")
+    private String jenisKelamin;
+
 }
