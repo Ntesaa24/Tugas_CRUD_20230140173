@@ -25,4 +25,17 @@ public class KtpDTO {
     @NotBlank(message = "Jenis Kelamin is required")
     private String jenisKelamin;
 
+    // Constructors
+    public KtpDTO() {}
+
+    public KtpDTO(Long id, String nomorKtp, String namaLengkap, String alamat, LocalDate tanggalLahir, String jenisKelamin) {
+        this.id = id;
+        this.nomorKtp = nomorKtp;
+        this.namaLengkap = namaLengkap;
+        this.alamat = alamat;
+        this.tanggalLahir = tanggalLahir;
+        this.jenisKelamin = jenisKelamin;
+    }
+
+
 }
